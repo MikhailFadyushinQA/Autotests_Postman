@@ -1,4 +1,6 @@
 // autotest for Postman
+//https://api.staya.dog/v1/auth/password/recovery/request
+//https://www.getpostman.com/collections/514460fb19b9fa3a8bb6
 
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
